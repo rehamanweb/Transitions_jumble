@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0;
+	padding:0;
+}
+
+#wrapper
+{
+margin-left:auto;
+margin-right:auto;
+width:1200px;
+min-height:600px;
+border-left:1px solid black;
+border-right:1px solid black;
+}
+
+#box1  /* transiton */
+{
+	margin:0;
+	padding:0;
+	width:200px;
+	height:200px;
+	background-color:red;
+	float:left;
+	border-radius: 200px;
+	overflow:hidden;
+	transition: transform .3s;
+	border:10px solid yellow;
+
+}
+
+#box1:hover
+{
+	transform: rotate(360deg);
+}
+
+#box2  /* transiton */
+{
+	margin:0;
+	padding:0;
+	width:200px;
+	height:200px;
+	background-color:red;
+	float:left;
+	border-radius: 200px;
+	overflow:hidden;
+	transition: transform .3s;
+	border:10px solid yellow;
+}
+
+#box2:hover
+{
+	transform: rotate(360deg);
+}
+
+#box3  /* transiton */
+{
+	margin:0;
+	padding:0;
+	width:200px;
+	height:200px;
+	background-color:red;
+	float:left;
+	border-radius: 200px;
+	overflow:hidden;
+	transition: transform .3s;
+	border:10px solid yellow;
+}
+
+#box3:hover
+{
+	transform: rotate(360deg);
+}
+
+#box4  /* transiton */
+{
+	margin:0;
+	padding:0;
+	width:200px;
+	height:200px;
+	background-color:red;
+	float:left;
+	border-radius: 200px;
+	overflow:hidden;
+	transition: transform .3s;
+	border:10px solid yellow;
+}
+
+#box4:hover
+{
+	transform: rotate(360deg);
+}
